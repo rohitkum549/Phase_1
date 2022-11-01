@@ -1,0 +1,67 @@
+Important Java Related Links
+----------------------------
+Tutorials
+----------
+www.tutorialspoint.com - beginners to intermediate
+www.roseindia.net - advanced level
+www.w3schools.com (html,javascript,xml,ajax,jquery,css...)
+http://jaiswaltraining.com (Sample programs)- Frameworks
+www.javatpoint.com (Complete Java , Interview Questions) -  beginners to intermediate
+
+
+Youtube
+-------
+Search
+-------
+Spring by koushik/javabrains
+Struts by koushik
+Hibernate by Koushik
+Web services by Koushik/javabrains
+Angular by Javabrains
+Maven by Koushik
+Spring Boot by javabrains
+Web Services by gontuseries
+Microservices by  JavaBrains
+
+java step by step
+core java step by step
+java tutorials for beginners
+
+React JS
+--------
+https://www.youtube.com/playlist?list=PLWPirh4EWFpHCGrvE6t5vsYBRS1SuivDm 
+
+Programs
+--------
+www.java2s.com
+www.java4s.com
+
+Projects 
+--------
+https://www.javatpoint.com/free-java-projects
+www.java2share.com
+
+Interview Questions
+-------------------
+https://www.javatpoint.com/corejava-interview-questions
+www.java2share.com
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
