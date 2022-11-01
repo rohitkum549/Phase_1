@@ -1,0 +1,8 @@
+Agenda:
+-------
+Strings
+Regular Expressions
+
+
+Multi-Threading
+Exception Handling

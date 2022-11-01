@@ -1,0 +1,113 @@
+Encapsulation:
+--------------
+Wrapping up data members and methods into a single entity class.
+
+Here, data member(variable/fields/properties) are declared as private and accessiblity to the private variables is given through public methods.
+
+Difference between Constructor and Methods:
+-------------------------------------------
+Constructors:
+-------------
+A constructor is used to initialize the instance variables of a class
+A constructor name ans class name should be same
+A constructor is called at the time of creating the object
+A constructor is called only once per object
+A constructor is called and executed automatically
+Methods:
+--------
+A method is used for any general purpose processing or calculations
+A method's name and class name can be same or different
+A method can be called after creating the object
+A method can be called several times on the object
+A method is executed only when we call it
+
+class Customer{
+
+//constructor
+Customer(){
+
+}
+//method
+public void Customer(){
+
+}
+}
+
+Methods:
+--------
+A method represents a group of statements that perform a task. Here 'task' represents a calculation or processing of data or generating a report.
+
+Syntax:
+-------
+accessmodifier returntype methodname(param1,param2)
+{
+//code
+}
+
+static method:
+--------------
+Static methods are the methods which do not act upon the instance variables of a class. Static methods are declared as static.
+
+To call a static method, we need not creat an object. We can call a static method directly by class name.
+
+What is the difference between instance variables and class variables(static variables)?
+
+1.An instance variable is a variable whose separate copy is available to each object. A class variable is a variable whose single copy in memory is shared by all object
+
+2.Instance variables are created in the objects on heap memory. Class variables are stored on memory area.
+
+3.Instance variables can be accessed by the object of the class. class variables can be accessed by the class name.
+
+this keyword:
+-------------
+The is a keyword that refers to the object of the current class.
+
+We can refer to the variables, constructors and methods in a class using this keyword.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

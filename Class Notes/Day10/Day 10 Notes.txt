@@ -1,0 +1,91 @@
+User Defined Exceptions/ Custom Exceptions:
+-------------------------------------------
+User defined exceptions are created by creating a class which is subclass of Exception class
+
+e.g.,
+
+class MyException extends Exception
+{
+MyException(String msg)
+{
+super(msg);
+}
+MyException(){}
+}
+
+Methods of Throwable class:
+---------------------------
+-String getMessage()=>returns the message of exception
+-void printStackTrace()=>displays the root cause of exception
+
+throws clause:
+-------------
+Even if a programmer is not handling runtime exceptions, the java compiler will not give any error related to runtime exceptions. But the rule is that the programmer should handle checked exceptions. In case the programmer does not want to handle the checked exceptions, he should throw them out using throws clause.
+
+throw clause:
+-------------
+There is also a throw statement available in Java to throw an exception explicitly and catch it.
+
+
+
+Problem Definition:
+-------------------
+Create a user defined exception "AgeException"
+Create a class "Customer" with a method "setAge()" which takes "age" as an argument.
+If the age is <18 or >60 then it should throw "AgeException" with the message "Age should be between 18 and 60.
+
+File Handling:
+--------------
+
+IO Package:
+	IO stands for Input Output
+IO package is used for the following
+	-creating new files
+	-writing data onto the files
+	-opening existing files
+	-reading data from the files
+	-closing the files
+
+Stream: Flow of data is called as stream
+
+Types of Streams:
+-----------------
+-byte streams
+-char streams
+
+Java NIO:
+---------
+Java has provided a second I/O system called NIO(New I/O). NIO provides the different way of working with I/O that the standard I/O API's. It is an alternate I/O API from Java version 1.4
+
+It supports a buffer-oriented, channel based approach for I/O Operations
+
+NIO was developed to allow Java programmers to implement high-speed I/O.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

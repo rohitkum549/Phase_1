@@ -1,0 +1,62 @@
+Constructors:
+-------------
+Constructor is a special method whose name is same as class name and doesn't have any return type.
+
+class Employee{
+
+Employee(){
+//constructor
+}
+
+}
+
+It is used for initialization of variables.
+
+It is implicitly invoked when we create an object of a class.
+
+When is a constructor called, before or after creating the object?
+
+A constructor is called concurrently when the object creation is going on. JVM first allocated memory for the object and then executes the constructor to initialize the instance variables. By the time, object creation is completed, the constructor execution is also completed.
+
+
+Method:
+-------
+accessmodifier returntype methodname(param1,param2)
+
+void printData(){
+
+
+}
+
+What is the difference between default constructor and parameterized constructor?
+
+Default constructor is useful to initialize all objects with same data.
+Default constructor doesnot have any parameters
+When data is not passed at the time of creating an object, default constructor is called.
+
+Parameterized constructor is useful to initialize each object with different data.
+Parameterized constructor will have 1 or more parameters.
+When data is passed at time of creating an object, parameterized constructor is called.
+
+BufferedReader:
+---------------
+BufferedReader is a class which will facilitate you to accept a user input from the keyboard.
+
+BufferedReader has large buffer of 8kb as compared to Scanner. Scanner is a bit slower as it needed to parse data as well.
+
+BufferedReader is faster than Scanner as it only reads a character stream.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

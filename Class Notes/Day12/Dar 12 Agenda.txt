@@ -1,0 +1,10 @@
+Agenda:
+-------
+Abstract classes and Methods
+Interfaces
+Introduction to Data Structures
+Array rotation
+Matrix Multiplication
+LinkedLists
+Stack 
+Queue

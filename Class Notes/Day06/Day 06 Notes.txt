@@ -1,0 +1,262 @@
+GIT
+---
+GIT is a version control system. It has a distributed architecture.
+
+It provides a flexible environment to work collaboratively and securely.
+
+You can create and manage remote repositories using GIT.
+
+GIT allows every user to have a copy of project files locally, thus making the files in the server secure.
+
+Create GIT repository:
+----------------------
+Steps:
+------
+1.Create a new repository
+	-create an account on github.com
+	-login to your account
+	-The click on + symbol to create a repository
+		Name:
+		description:
+
+2.Open the Terminal(Git bash)
+	-for this you need to install "Git for windows" version then goto programs and open git bash
+
+3.Set your local project as Current Working Directory
+$pwd
+/c/Users/HUSER3
+
+$cd C:/Users/HUSER3/Simplilearn/SeptWeekdays2/Day04/Day04Proj01/src/mypackage
+
+$pwd
+/c/Users/HUSER3/Simplilearn/SeptWeekdays2/Day04/Day04Proj01/src/mypackage
+
+$ls
+
+This will list the files available
+
+4.Initialize the local repository as a git repository
+$git init
+
+
+5.Add the files in your local repository. Your files will not be staged for their first commit.
+
+$git add .
+
+will add all the files available inside the folder
+
+6.Commit the files that you have staged in your local repository
+$git commit -m "first commit" 
+
+7.Copy the remote repository's url from github.com login
+
+e.g., https://github.com/mruthyunjaya-prog/simplilearnsept22.git
+
+8.Add the url for the remote repository where your local repository will be pushed
+
+$git remote add origin https://github.com/mruthyunjaya-prog/simplilearnsept22.git
+
+9.Push the code in your local repository to github
+
+$git push -u origin master
+username: emailid
+password:****
+
+10.To view your files in your repository
+github.com
+
+
+Collections:
+------------
+Collections are used to collect the elements of variable size(not fixed)
+
+Arrays vs Collections:
+----------------------
+In Arrays we can collect the elements of fixed size where as in collections we can collect elements of variable size(not fixed)
+
+In Arrays we can collect only similar type of elements where as in collections we can collect different type of elements
+
+In Arrays we can collect primitive type as well as reference type of elements where as in collections we can collect only reference type of elements.
+
+Collection vs Map:
+------------------
+Collection is used to collect the elements only where as Map is used to collect the elements in the form of key-value pairs.
+
+List vs Set:
+------------
+List is ordered where as set is unordered
+List allow duplicate elements where as Set does not allow duplicate elements.
+
+e.g.	elements: 5,8,6,4,7
+	ordered: 5,8,6,4,7
+	unordered:8,4,7,6,5
+	sorted:4,5,6,7,8/8,7,6,5,4
+
+ArrayList vs LinkedList:
+------------------------
+In ArrayList elements are stored in continuous memory locations where as in LinkedList the elements are stored in non-continuous memory locations in the form of nodes.
+(A node is divided into two parts: element value and link to the next node)
+
+The cost of insert and delete operations are more in ArrayList where as the cost of thes operations are less in LinkedList.
+
+ArrayList occupies less memory than LinkedList
+
+HashSet:
+--------
+HashSet is unordered and no duplicate elements
+
+LinkedHashSet:
+--------------
+LinkedHashSet is ordered and no duplicate elements
+
+TreeSet:
+--------
+TreeSet is sorted and no duplicate elements
+
+HashMap:
+--------
+HashMap is unordered based on keys and no duplicate keys
+
+LinkedHashMap:
+--------------
+LinkedHashMap is ordered based on keys and no duplicates
+
+TreeMap:
+-------
+TreeMap is sorted based on keys and no duplicate keys
+
+Methods of List interface:
+--------------------------
+boolean add(Object)=>adds an element at last
+void add(int,Object)=>adds an element at given index
+void set(int,Object)=>updates/modifies the element at given index
+boolean remove(Object)=>deletes the given element
+Object remove(int)=>deletes the element at given index
+Object get(int)=>returns the element at given index
+int size()=>returns the number of elements
+
+Additional methods in LinkedList:
+---------------------------------
+addFirst()
+addLast()
+removeFirst()
+removeLast()
+
+Assignment:
+-----------
+WAP to do following LinkedList operations
+
+1.Add element at last
+2.Add element at first
+3.Add element at given index
+4.Update element at given index
+5.Delete first element
+6.Delete last element
+7.Delete the given element
+8.Delete the element at given index
+9.Display elements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+

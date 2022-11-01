@@ -1,0 +1,9 @@
+Agenda
+===========================
+
+Data types & Number System
+
+Operators in Java
+
+Flow Control(if-else,switch,while,do-while,for,foreach,Transfer Statements)
+

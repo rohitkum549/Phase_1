@@ -1,0 +1,99 @@
+for loop:
+---------
+The java for loop is used to iterate a part of the program several times. If the number of iterations is fixed then it is recommended to use.
+
+Nested for:
+-----------
+If we have a for loop inside another loop, it is known as nested for loop. The inner loop executed completely whenever outer loop executes.
+
+while loop:
+-----------
+The java while loop is used to iterate a part of the program repeatedly until the specified boolean condition is true
+
+As soon as the Boolean condition becomes false, the loop automatically stops.
+
+If the number of iteration is not fixed, it is recommended to use.
+
+do-while loop:
+--------------
+The java do-while loop is used iterate a part of the program repeatedly, until the specified condition is true.
+
+If the number of iterations is not fixed and you must have to execute the loop atleast once, it is recommended to use a do-while loop.
+
+do-while loop is called an exit control loop.
+
+while and for loop will check the condition at the begining but do-while will check at the end.
+
+break
+------
+When a break statement is encountered inside a loop, the loop is immediately terminated.
+
+continue:
+---------
+when a continue statement is encountered inside a loop, it skips the current iteration and goes for the next iteration.
+
+Arrays:
+-------
+int a1,a2,a3....a10
+
+int[] a=new int[10];
+
+Array is a collection of similar data type elements.
+
+Types of Arrays:
+----------------
+1)Single Dimensional Arrays
+2)Multi-Dimensional Arrays
+
+1)Single Dimensional Arrays:
+----------------------------
+int[] marks;//declaration of array
+marks=new int[5];//allot memory for storing 5 elements
+
+traversing is a technique to pass through each and every element in the array and printing that element.
+
+2)Multi-Dimensional Arrays:
+---------------------------
+int marks[][];//declare marks array
+marks=new int[3][5];//allot memory for storing 15 elements
+
+3-->rows
+5-->columns
+
+WAP to accept rows and columns of a multi-dimensional array from the keyboard and initialize an array. Then accept the aaray elements from the user then, display them in a matrix form.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

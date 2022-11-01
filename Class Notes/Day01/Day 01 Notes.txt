@@ -1,0 +1,255 @@
+Procedure Oriented Programming
+------------------------------
+C-Language:
+-----------
+1)Security
+----------
+#include<stdio.h>
+void main()
+{
+int age=21;
+---
+---
+400th line
+
+}
+
+2)Reusability:
+functions
+
+3)Platform Dependency:
+Test.c----->C Compiler----->Test.exe
+
+Object Oriented Programming:
+----------------------------
+Object: Anything which can be distinctly identified is called as an object.
+
+Every object has identity, attributes and actions i.e., state and behaviour.
+
+AC as an object
+---------------
+Identity--->productid
+
+attributes:
+-----------
+brandname,color,type,price,mfdyear,model
+
+actions:
+--------
+turnon(),turnoff(),settemp(),swingon(),swingoff()
+
+class: It is a collection of similar objects with same attributes and actions
+
+Principles of Object Oriented Programming:
+------------------------------------------
+1)Abstraction
+2)Encapsulation
+3)Inheritance
+4)Polymorphism
+
+1)Abstraction: The process of hiding the complexity of the object by identifying the relevant attributes and actions needed for the automation of the system.
+
+2)Encapsulation: Wrapping up of data members and methods into a single entity class.
+Every class is an encapsulation
+
+in a class
+----------
+Data members--->private
+methods---->public
+
+Accessibility of private data is done through public methods
+
+3)Inheritance: Defining a new class based on the existing class
+
+class Employee
+{
+100LOC(Lines of Code)
+}
+class HREmployee extends Employee
+{
+20LOC
+
+after extending 100+20=120LOC
+}
+
+i)Single Inheritance:If a class contains only one base class to it then it is a single inheritance
+
+a)Multi-Level Inheritance: If a derived class is becoming a base class of another class.
+
+A is called Base/Parent/Super class
+B is called Derived/Child/Sub class
+
+class A
+{
+
+}
+class B extends A
+{
+
+}
+class C extends B
+
+b)Hierarchical Inheritance: If a class is being derived to more than one class then it is hierarchical.
+
+class A
+{
+
+}
+class B extends A
+{
+
+}
+class C extends A
+{
+
+}
+
+ii)Multiple Inheritance: If a class contains more than one base class to it then it is multiple inheritance
+
+Note: Multiple inheritance through classes can't be achieved in JAVA. It can be achieved through interfaces.
+
+4)Polymorphism: It is an ability of a method to have multiple forms
+
+poly-->many
+morphs--->forms
+
+add(int a,int b)
+add(int a,int b, int c)
+add(float a,float b)
+add(int a,int b,int c,int d)
+
+signature is nothing but no. of parameters and type of parameters
+
+i)Method Overloading:
+	Defining multiple methods with same name but different signature.
+ii)Method Overriding:
+	Redefining the base class method in the derived class for new functionality.
+
+Advantages:
+-----------
+1)Security:
+Access modifiers and Encapsulation
+
+class Student
+{
+private int rollNo,age;
+private String name,course;
+
+public void getData()
+{
+
+}
+}
+class Demo
+{
+public static void main()
+{
+Student obj=new Student();
+obj.getData();
+}
+}
+
+
+2)Reusability:
+Inheritance
+
+
+3)Platform Idependency:
+Test.java----->Java Compiler----->Test.class(Byte code)
+Test.class---->JVM(Java Virtual Machine)----->o/s understandable format
+
+JAVA is an Object Oriented Programming Language.
+
+JRE-->Java Runtime Environment
+
+JRE contains JVM(Java Virtual Machine)
+
+JDK--->Java Developmen Kit
+
+Java SE-->Developing Standalone Application
+Java EE-->Developing Web Applications
+Java ME-->Developing mobile applications
+
+public static void main(String[] args)
+---------------------------------------
+Here, main() method is declared as public,static and void.
+
+public because it should be made available to JVM, which is another program.
+
+static because it should be called without using any object.
+
+void because it doesnot return any value.
+
+String[] args which is an array to store values passed to main() method.These are called as command line arguments
+
+Commandline arguments are the arguments given to the program during the runtime.
+
+Data Types in Java:
+-------------------
+byte---->1 byte----->-128 to +127
+short--->2 bytes---->-32768 to +32767
+int----->4 bytes
+long---->8 bytes
+float--->4 bytes
+double-->8 bytes
+char---->2 bytes
+boolean--->1 bit
+
+ASCII--->American Standard Code for Information Interchange
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

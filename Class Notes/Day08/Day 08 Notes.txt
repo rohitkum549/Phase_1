@@ -1,0 +1,59 @@
+Thread-Safe:
+------------
+When a thread is already acting on an object, preventing any other thread from acting on the same object is called "Thread-safe" or "Thread Synchronization".
+
+
+Regular Expressions:
+--------------------
+Regular Expressions or Regex(in short) in Java is an API for defining String patterns that can be used for searching, manipulating and editing a string in Java
+
+Email Validation, Mobile Number and Passwords are few areas of strings where Regex is widely used to define the constraints.
+
+Regular Expressions are provided under java.util.regex package.
+
+This consists of 3 classes and 1 interface
+
+The java.util.regex package primarily consists of
+
+1.Pattern class
+2.Matcher class
+3.PatterSyntaxException class
+4.MatchResult interface
+
+1.Pattern class:
+----------------
+This class is a compilation of regular expressions that can be used to define various types of patterns.
+
+This can be created by invoking the compile() method which accepts a regular expression as the first argument, thus returns a pattern after execution.
+
+2.Matcher class:
+----------------
+This object is used to perform match operations for an input string in java, thus interpreting the previously explained patterns.
+
+Multi-Threading:
+----------------
+A thread a light weight process under execution with in the process.
+MultiThreading is used to improve the performance of the application.
+
+WAP to find the the thread used by JVM to execute the statements
+
+
+Q:Which thread always run in a Java program by default?
+A:main
+
+Why threads are called light-weight?
+Threads are light-weight because they utilize minimum resources of the system. THis means they take less memory and less processor time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,98 @@
+Traversing:
+-----------
+Accessing every element of List/Set is called traversing
+
+Iterator interface:
+-------------------
+This interface is used to traverse the elements of List/Set
+
+Methods:
+--------
+boolean hasNext()-It checks whether the next element present in the collection or not
+Object next()-It gets the next element from the collection
+
+Generics in Collections:
+------------------------
+Generics are added in Java 5 version.
+Generics are used to manage different data types.
+When Generics are used in collections we can ensure that the collections contains only similar type of elements.
+When Generics are used in collections we can traverse the elements using Enhanced for loop(foreach loop).
+
+Array-->Fixed and simliar data
+Collection-->not fixed and different data
+Generics-->not fixed and similar data
+
+Set interface:
+--------------
+Set is an unordered collection of elements
+Set does not allow duplicate elements
+
+Classes under Set interface:
+----------------------------
+HashSet=>Unordered and no duplicate elements
+LinkedHashSet=>Ordered and no duplicate items
+TreeSet=>sorted and no duplicate items
+
+WAP to remove duplicate mobile numbers from the given list of mobile numbers
+
+Map:
+----
+Map is used to collect the elements in the form of key-value pairs
+Map doesn't allow duplicate keys
+
+Classes under Map Interface:
+----------------------------
+HashMap=>unordered based on keys and no duplicates
+LinkedHashMap=>ordered based on keys and no duplicates
+TreeMap=>sorted based on keys and no duplicates
+
+Iterating Maps:
+---------------
+Get the keys of Map into a Set
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

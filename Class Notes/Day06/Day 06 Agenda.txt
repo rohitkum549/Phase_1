@@ -1,0 +1,6 @@
+Agenda:
+-------
+GIT
+Collections
+Map
+Inner classes

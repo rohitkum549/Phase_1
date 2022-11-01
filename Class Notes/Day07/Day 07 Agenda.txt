@@ -1,0 +1,5 @@
+Agenda:
+-------
+Collections
+Map
+Inner classes

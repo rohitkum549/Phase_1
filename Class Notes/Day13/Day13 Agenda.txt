@@ -1,0 +1,7 @@
+Agenda:
+-------
+Matrix Multiplication
+LinkedLists
+Stack 
+Queue
+Linear Seach

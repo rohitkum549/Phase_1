@@ -1,0 +1,120 @@
+Operators in JAVA:
+------------------
+An operator is a symbol that performs an operation. An operator acts on some variables, called operands to get the desired result.
+
+a+b
+
+a,b are operands
++ is a operator
+
+1)Arithmetic Operators(+,-,*,/,%)
+2)Unary operators(-,++,--)
+3)Assignment Operator(=)
+4)Relational Operators(>,>=,<,<=,==,!=)
+5)Logical Operators(&&,||,!)
+6)Bitwise(<<,>>)
+7)Ternary Operator(?:)
+	This operator is called ternary because it acts on 3 variables.The other name for this operator is conditional operator
+
+Control Statements in JAVA:
+---------------------------
+Control statements are the statements which alter the flow of execution and provide better control to the programmer on the flow of execution. They are useful to write better and complex programs.
+
+if..else statement
+switch statement
+do..while loop
+while loop
+for loop
+for-each loop
+break statement
+continue statement
+
+Assignment:
+-----------
+A year is a leap year, if it is divisible by 4 and 400. But not by 100
+
+
+switch statement:
+-----------------
+switch statement executes one statement from multiple conditions. It is like if-else ladder.
+
+There can be one or n number of case values for a switch expression
+
+The case value must be of switch expression type only.
+
+The case values must be unique.
+The case value can have a default label which is optional
+
+
+Syntax:
+-------
+switch(expression){
+
+case value1:
+//code to be exected
+break;//optional
+case value2:
+//code to be exected
+break;//optional
+case value3:
+//code to be exected
+break;//optional
+default:
+//code to be executed if all cases are not matched
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
